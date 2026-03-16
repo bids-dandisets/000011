@@ -1,0 +1,22 @@
+{
+    "Name": "Robust neuronal dynamics in premotor cortex during motor planning",
+    "BIDSVersion": "1.10",
+    "HEDVersion": "8.3.0",
+    "Description": "Neural activity in the premotor cortex maintains representations that bridge past and future events, such as motor planning, often over several seconds. This study uses electrophysiology and optogenetic perturbations in the mouse premotor cortex (specifically the anterior lateral motor cortex, ALM) to probe the robustness of these persistent neural representations. The research demonstrates that preparatory activity is remarkably robust to large-scale unilateral silencing, with detailed neural dynamics being quickly and selectively restored by the network. However, this selectivity does not recover after bilateral silencing, suggesting that perturbations in one hemisphere are corrected by information from the other. This redundancy across selectively coupled modules is a hallmark of robust control systems. The dataset includes silicon probe recordings and optogenetic perturbation data (using VGAT-ChR2-EYFP and PV-ires-cre mice) during an object location discrimination task.",
+    "DatasetType": "raw",
+    "Authors": [
+        "Li, Nuo",
+        "Daie, Kayvon",
+        "Svoboda, Karel",
+        "Druckmann, Shaul"
+    ],
+    "License": "CC-BY-4.0",
+    "GeneratedBy": [
+        {
+            "Name": "nwb2bids",
+            "Version": "0.9.1.dev27+gf0fb7253c",
+            "Description": "Tool to reorganize NWB files into a BIDS directory layout.",
+            "CodeURL": "https://github.com/con/nwb2bids"
+        }
+    ]
+}
